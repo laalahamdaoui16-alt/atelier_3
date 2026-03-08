@@ -27,3 +27,4 @@ class parc:
             print("voiture non existe")
     def calculerNplaceslibre(self):
         return  self.capacite - len(self.voiture)
+parc = parc(3)
