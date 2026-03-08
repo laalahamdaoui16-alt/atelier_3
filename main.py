@@ -28,3 +28,8 @@ class parc:
     def calculerNplaceslibre(self):
         return  self.capacite - len(self.voiture)
 parc = parc(3)
+
+v1=voiture(marque="toyota",modele="yaris",imatriculation="X50 MPC")
+v2=voiture("toyota",modele="corolla",imatriculation="X50 MPC")
+v3=voiture("toyota",modele="matryx",imatriculation="X50 MPC" )
+v4=voiture("toyota",modele="carmy",imatriculation="X50 MPC" )
