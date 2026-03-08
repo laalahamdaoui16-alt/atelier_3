@@ -13,7 +13,7 @@ class parc:
     def entervoiture(self,voiture):
         if voiture in self.voiture:
             print("voiture existe")
-        elif len(self .voiture):>=self.capacite:
+        elif len(self .voiture) >=self.capacite:
             print("parc est plein")
         else:
             self.voiture.append(voiture)
