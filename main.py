@@ -29,10 +29,10 @@ class parc:
         return  self.capacite - len(self.voiture)
 parc = parc(3)
 
-v1=voiture(marque="toyota",modele="yaris",imatriculation="X50 MPC")
-v2=voiture("toyota",modele="corolla",imatriculation="X50 MPC")
-v3=voiture("toyota",modele="matryx",imatriculation="X50 MPC" )
-v4=voiture("toyota",modele="carmy",imatriculation="X50 MPC" )
+v1=voiture(marque="toyota",modele="yaris",imatriculation="X50 MOC")
+v2=voiture("toyota",modele="corolla",imatriculation="O50 MFC")
+v3=voiture("toyota",modele="matryx",imatriculation="X50 PPC" )
+v4=voiture("toyota",modele="carmy",imatriculation="X80 MPC" )
 
 parc.entervoiture(v1)
 parc.entervoiture(v2)
