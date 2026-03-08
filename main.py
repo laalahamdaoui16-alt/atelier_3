@@ -18,3 +18,10 @@ class parc:
         else:
             self.voiture.append(voiture)
             print("voiture ajoutee",voiture.affiche())
+    def sortirvoiture(self,voiture):
+        if voiture in self.voiture:
+            self.voiture.remove(voiture)
+            print("voiture retiree",voiture.affiche())
+            print("places libres:",self.calculerNplaceslibre())
+        else:
+            print("voiture non existe")
