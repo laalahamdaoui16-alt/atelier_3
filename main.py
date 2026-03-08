@@ -39,3 +39,6 @@ parc.entervoiture(v2)
 parc.entervoiture(v3)
 parc.entervoiture(v4)
 
+parc.sortirvoiture(v2)
+
+
