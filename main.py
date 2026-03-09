@@ -1,10 +1,10 @@
 class voiture:
-    def __init__(self, marque,modele,imatriculation):
+    def __init__(self, marque,couleur,imatriculation):
         self.marque = marque
-        self.modele = modele
+        self.couleur = couleur
         self.imatriculation = imatriculation
     def affiche(self):
-        return f"{self.marque} {self.modele} {self.imatriculation}"
+        return f"{self.marque} {self.couleur} {self.imatriculation}"
 
 class parc:
     def __init__(self,capacite):
@@ -29,10 +29,10 @@ class parc:
         return  self.capacite - len(self.voiture)
 parc = parc(3)
 
-v1=voiture(marque="toyota",modele="yaris",imatriculation="X50 MOC")
-v2=voiture("toyota",modele="corolla",imatriculation="O50 MFC")
-v3=voiture("toyota",modele="matryx",imatriculation="X50 PPC" )
-v4=voiture("toyota",modele="carmy",imatriculation="X80 MPC" )
+v1=voiture(marque="toyota",couleur="noir",imatriculation="X50 MOC")
+v2=voiture("toyota",couleur="blanc",imatriculation="O50 MFC")
+v3=voiture("toyota",couleur="rouge",imatriculation="X50 PPC" )
+v4=voiture("toyota",couleur="maron",imatriculation="X80 MPC" )
 
 parc.entervoiture(v1)
 parc.entervoiture(v2)
